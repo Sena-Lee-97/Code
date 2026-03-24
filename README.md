@@ -184,6 +184,45 @@ Requirements:
 
 ---
 
+## Sample Dataset
+
+A sample dataset is provided in the `data/sample_dataset/` directory for testing purposes.
+
+This dataset corresponds to a subset used in the evaluation of detection performance across eight DEP datasets.  
+It includes representative DEP image sequences with varying cell densities.
+
+The sample dataset can be used for:
+
+* Verifying the detection pipeline (YOLO-based cell detection)
+* Testing the tracking pipeline without requiring the full dataset
+* Quick validation of the overall execution workflow
+
+Example structure:
+
+data/sample_dataset/
+├── IMG_0.jpg
+├── IMG_1.jpg
+├── ...
+
+⚠️ Note:
+The full dataset used in the experiments is not included due to its large size.  
+Please refer to the external link provided below for access to the complete dataset.
+
+## Full Dataset
+
+The complete DEP datasets used in this study (including all eight datasets for detection evaluation)
+are available at:
+
+[Insert Google Drive / Zenodo link here]
+
+After downloading, organize the data as follows:
+
+data/
+├── test_1/
+├── test_2/
+├── test_3/
+
+
 # ⚖️ Experimental Setup
 
 To ensure fair comparison:
