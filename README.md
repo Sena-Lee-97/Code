@@ -201,7 +201,7 @@ Example structure:
 
 data/sample_dataset/
 ├── IMG_0.jpg
-├── IMG_1.jpg
+├── IMG_1.jpghttps://github.com/Sena-Lee-97/Code/blob/main/README.md
 ├── ...
 
 ⚠️ Note:
@@ -210,18 +210,18 @@ Please refer to the external link provided below for access to the complete data
 
 ## Full Dataset
 
-The complete DEP datasets used in this study (including all eight datasets for detection evaluation)
-are available at:
+The complete DEP datasets used in this study (including all eight datasets for detection evaluation) are available at:
 
-[Insert Google Drive / Zenodo link here]
+https://zenodo.org/records/19198724
 
-After downloading, organize the data as follows:
+The dataset includes three main test sets organized as follows:
 
 data/
-├── test_1/
-├── test_2/
-├── test_3/
+├── test_1/  (Dataset 3)
+├── test_2/  (Dataset 1)
+├── test_3/  (Dataset 2)
 
+Each dataset consists of time-lapse image sequences acquired under frequency-modulated DEP conditions.
 
 # ⚖️ Experimental Setup
 
